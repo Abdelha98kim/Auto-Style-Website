@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pay</title>
+    <link rel="stylesheet" href="../css/stylePayment.css">
+</head>
+
+<body>
+    <!-- nav bar  -->
+
+    <section class="contaner">
+        <h1> Payment method</h1>
+
+        <div class="methode-Bitcoin">
+            <label for="methode-Bitcoin-check"><input type="checkbox" id="methode-Bitcoin-check"
+                    name="choi pay bitcoin"> Bitcoin</label>
+            <img src="../Resources/icon-bitcoin.png" alt="">
+        </div>
+
+        <div class="method-visitCart">
+            <!-- lift side of pay par visit cart -->
+            <div class="left-side">
+                <label for="method-visitCart-check"><input type="checkbox" id="method-visitCart-check"
+                        name="choi pay cart visit"> Credit card</label>
+                
+                <label for="space-name">Full name <br><input type="text" placeholder="first name and last" name="mind's car" id="space-name" required></label>
+                <label for="card-namber">Card Number <br><input type="number" placeholder="first name and last" name="mind's car" id="card-namber" required></label>
+                
+                <div class="ExCv">
+                    <label for="Edate">Expiry date <br><input type="date"  name="E date" id="Edate" required></label>
+                    <label for="CvvCode">Cvv Code <br><input type="password"  name="password cart" id="CvvCode" required></label>
+                </div>
+
+                <div class="validComend">
+                    Submit
+                </div>
+            </div>
+
+            <!-- right side of pay par visit cart -->
+            <div class="right-side">
+                <div class="visa-mestrCard">
+                    <img src="../Resources/visa.png" alt="">
+                    <img src="../Resources/icon-mr.png" alt="">
+                </div>
+                <img src="../Resources/CartVisa.png"  alt="">
+            </div>
+
+
+
+        </div>
+    </section>
+</body>
+
+</html>
