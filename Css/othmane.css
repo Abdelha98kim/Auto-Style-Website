@@ -1,0 +1,66 @@
+/*Styling navbar*/
+.navbar{
+    background-color: #FBE6CB;
+    display: flex;
+    width: 100%;
+    height: 84px;
+    align-items: center;
+}
+
+.nav-burger-menu{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.nav-burger-menu img{
+    width: 50px;
+    height: 50px;
+    left: 356px;
+    top: 17px;
+    
+}
+
+.nav-logo img{
+    padding: 18px 0 18px 45px;
+}
+
+/*catalouge css*/
+body{
+    background-color: rgb(219, 134, 22);
+}
+
+.catalogue-image{
+    width: 200px;
+}
+
+.car{
+    background-color: #402C2C;
+    width: 526px;
+    height: 186px;
+    display: flex;
+    margin: 10px;
+     
+}
+
+#catalogue{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-self:center;
+}
+h3{
+color: white;
+  align-content: right ;
+  margin: 20px;
+}
+p{
+    color: white;
+   margin: 20px;
+}
+button{
+    margin: 20px;
+    color:black;
+    border-radius: 12px;
+    background-color: #FAB97E;
+}
