@@ -64,3 +64,84 @@ button{
     border-radius: 12px;
     background-color: #FAB97E;
 }
+/*styling footer*/
+
+.footer{
+    background-color: #FFC57A;
+    display: flex;
+    height: 265px;
+}
+
+
+.footer-update_social-media-update, .footer-support {
+    background-color: #FF6545;
+    border-radius: 8px;
+}
+
+.footer-support-update{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: start;
+}
+
+.footer-support ul{
+    list-style: none;
+}
+
+.footer-support{
+    width: 226px;
+    height: 144px;
+}
+
+.footer-support h1{
+    display: inline;
+    position: relative;
+    left: 14px;
+    top: 6px;
+}
+
+.footer-support ul{
+    position: relative;
+    left: 37px;
+    top: 8px;
+    width: 152px;
+    font-weight: 450;
+}
+
+.footer-support ul li{
+    margin-bottom: 10px;
+}
+
+.footer-update_social-media-update{
+    width: 226px;
+    height: 89px;
+}
+
+.footer-update_social-media-update h1{
+    display: inline;
+    position: relative;
+    left: 14px;
+    top: 6px;
+    font-size: 20px;
+}
+
+.footer-input{
+  border-radius: 8px;
+  background-color: #FBF7DC;
+  width: 177px;
+  height: 30px;
+  border: none;
+  font-weight: light;
+  position: relative;
+  top: 10px;
+  left: 17px;
+}
+
+
+.footer-logo_caption{
+    padding: 72px 0 0 23px;
+    width: 300px;}
