@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pay</title>
+    <link rel="stylesheet" href="../Css/stylePayment.css">
+</head>
+
+<body>
+    <!-- nav bar  -->
+
+    <nav class="navbar">
+        <figure class="nav-logo">
+          <a href="#">
+              <img src="../Images/autostyle.png" alt="Auto Style company Logo"/>
+          </a>
+        </figure>
+        <figure class="nav-burger-menu">
+          <a href="#">
+              <img src="../Images/menu.png" alt="Humberger Menu" />
+          </a>
+        </figure>
+      </nav>
+
+    <section class="contaner">
+        <h1> Payment method</h1>
+
+        <div class="methode-Bitcoin">
+            <label for="methode-Bitcoin-check"><input type="checkbox" id="methode-Bitcoin-check"
+                    name="choi pay bitcoin"> Bitcoin</label>
+            <img src="../Images/icon-bitcoin.png" alt="">
+        </div>
+
+        <div class="method-visitCart">
+            <!-- lift side of pay par visit cart -->
+            <div class="left-side">
+                <label for="method-visitCart-check"><input type="checkbox" id="method-visitCart-check"
+                        name="choi pay cart visit"> Credit card</label>
+                
+                <label for="space-name">Full name <br><input type="text" placeholder="first name and last" name="mind's car" id="space-name" required></label>
+                <label for="card-namber">Card Number <br><input type="number" placeholder="first name and last" name="mind's car" id="card-namber" required></label>
+                
+                <div class="ExCv">
+                    <label for="Edate">Expiry date <br><input type="date"  name="E date" id="Edate" required></label>
+                    <label for="CvvCode">Cvv Code <br><input type="password"  name="password cart" id="CvvCode" required></label>
+                </div>
+
+                <div class="validComend">
+                    Submit
+                </div>
+            </div>
+
+            <!-- right side of pay par visit cart -->
+            <div class="right-side">
+                <div class="visa-mestrCard">
+                    <img src="../Images/visa.png" alt="">
+                    <img src="../Images/icon-mr.png" alt="">
+                </div>
+                <img src="../Images/CartVisa.png"  alt="">
+            </div>
+
+
+
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-logo_caption">
+          <figure class="footer-logo">
+            <a href="#">
+              <img src="../Images/autostyle.png" alt="Auto Style Company logo"/>
+            </a>
+          </figure>
+          <small class="footer-small">
+              &copy; 2024 AutoStyle, lnc
+          </small>
+        </div>
+  
+        <div class="footer-support-update">
+        <div class="footer-support">
+          <h1>Support</h1>
+          <ul>
+              <li>Term and Condition</li>
+              <li>Privacy and policy</li>
+              <li>Contact Us</li>
+          </ul>
+        </div>
+  
+        <div class="footer-update_social-media-update">
+              <h1>Stay up to date</h1>
+              <input type="text" placeholder="Your Email Adress" class="footer-input">
+        </div>
+        </div>
+      </footer>
+</body>
+
+</html>

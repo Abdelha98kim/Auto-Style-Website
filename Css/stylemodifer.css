@@ -1,0 +1,260 @@
+/* nav bar */
+/*Styling navbar*/
+
+.navbar{
+    background-color: #FBE6CB;
+    display: flex;
+    width: 100%;
+    height: 84px;
+    align-items: center;
+}
+
+.nav-burger-menu{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.nav-burger-menu img{
+    width: 50px;
+    height: 50px;
+    left: 356px;
+    top: 17px;
+    
+}
+
+.nav-logo img{
+    padding: 18px 0 18px 45px;
+}
+
+/*styling footer*/
+
+.footer{
+    background-color: #FFC57A;
+    display: flex;
+    height: 265px;
+}
+
+
+.footer-update_social-media-update, .footer-support {
+    background-color: #FF6545;
+    border-radius: 8px;
+}
+
+.footer-support-update{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: start;
+}
+
+.footer-support ul{
+    list-style: none;
+}
+
+.footer-support{
+    width: 226px;
+    height: 144px;
+}
+
+.footer-support .h1-smail{
+    display: inline;
+    position: relative;
+    left: 14px;
+    padding: 0;
+    background-color: #FF6545;
+    top: 6px;
+}
+
+.footer-support ul{
+    position: relative;
+    left: 17px;
+    top: 8px;
+    width: 152px;
+    font-weight: 450;
+}
+
+.footer-support ul li{
+    margin-bottom: 10px;
+}
+
+.footer-update_social-media-update{
+    width: 226px;
+    height: 89px;
+}
+
+.footer-update_social-media-update h1{
+    display: inline;
+    position: relative;
+    left: 14px;
+    top: 6px;
+    padding: 0;
+    background-color: #FF6545;
+    font-size: 20px;
+}
+
+.footer-input{
+  border-radius: 8px;
+  background-color: #FBF7DC;
+  width: 177px;
+  height: 30px;
+  border: none;
+  font-weight: light;
+  position: relative;
+  top: 10px;
+  left: 17px;
+}
+
+
+.footer-logo_caption{
+    padding: 72px 0 0 23px;
+    width: 300px;
+}
+
+/* nan bar  */
+
+.contener {
+    width: 600px;
+    margin: auto;
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: column;
+    gap: 81px;
+}
+
+.img-underBar {
+    border-radius: 100px;
+}
+
+.manyCars {
+    display: flex;
+    justify-content: space-around;
+    /* gap: 20px; */
+    /* text-align: center; */
+}
+
+.manyCars p {
+    font-size: 30px;
+}
+
+.manyCars .a, .manyCars .c{
+    color: grey;
+}
+
+.dir {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Ble {
+    /* display: flex; */
+    
+    cursor: progress;
+    border: none;
+    background-color: transparent;
+    width: fit-content;
+    font-size: 30px;
+    font-weight: bold ;
+}
+
+/* .changeCar {
+    display: flex;
+    justify-content: space-evenly;
+} */
+
+h1{
+    background-color: skyblue;
+    width: fit-content;
+    padding: 20px;
+    position: relative;
+    left: 20%;
+    border-radius: 10px;
+    margin-bottom: 4px;
+}
+
+.type-Car, .micanik, .Statut-juridique {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 15px;
+}
+
+.case1{
+    width: fit-content;
+    padding: 0px 35.2% 20px;
+    background-color: #D9D9D9;
+    margin: auto;
+    /* margin-bottom:  15px; */
+    border-radius: 10px;
+}
+
+.typeCar-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.typeCar-flex > div, .micanik-flex>div{
+    /* width: fit-content; */
+    padding: 0px 20px 20px;
+    background-color: #D9D9D9;
+    border-radius: 15px;   
+}
+
+.micanik-case {
+    width: fit-content;
+    margin: auto;
+    background-color: #D9D9D9;
+    padding: 0px 31.5% 20px;
+    border-radius: 10px;
+}
+
+.micanik-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.magic-div {
+    display: none;
+}
+
+input[type="file"] {
+    width: 200px;
+    background-color: white;
+    border: solid 1px;
+    border-radius: 5px;
+}
+
+.juridique-case1 {
+    width: fit-content;
+    margin: auto;
+    padding: 0px 28.4% 20px;
+    background-color: #D9D9D9;
+    border-radius: 10px;
+}
+
+.juridique-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.juridique-flex > div {
+    padding: 0px 20px 20px;
+    width: fit-content;
+    background-color: #D9D9D9;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+
+.BotonValider {
+    background-color: #D9D9D9;
+    padding: 20px 70px;
+    width: fit-content;
+    border-radius: 50px;
+    margin: auto;
+}

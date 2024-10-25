@@ -145,19 +145,64 @@
 .discover-caption h1{
     color: #ffffff;
     padding-left: 10px;
-    font-size: 64px;
-    font-weight: 500;
+    font-size: 44px;
+    margin-bottom: 10px;
+    font-weight: 400;
     width: 405px;
+}
+
+.discover-caption-all{
+    display: flex;
+    align-items: center;
 }
 
 .discover-caption button{
     background-color: #FEBD6A;
     border: none;
-    width: 150px;
-    height: 48px;
+    width: 100px;
+    height: 38px;
     border-radius: 10px;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 13px;
     margin-left: 10px;
     margin-bottom: 10px;
 }
+
+.main-discover-img img{
+    width: 250px;
+    height: 250px;
+}
+
+.main-discover-img{
+    height: 290px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.main-ajouter{
+    background-color: #CE3B14;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+
+.main-image-slide{
+    background-color: #8E0701;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main-image-slide figure img{
+    width: 400px;
+    padding: 7px 14px;
+}
+
+.mercedes-picture-slide{
+    height: 266px;
+}
+
+
