@@ -34,6 +34,62 @@
     padding: 18px 0 18px 45px;
 }
 
+nav ul{
+    list-style: none;
+    display: flex;
+    width: 70%;
+    justify-content: center;
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    margin: 0 22px;
+}
+
+nav li{
+    display: inline;
+}
+
+.sign-login{
+    display: flex;
+    width: 72px;
+    height: 28px;
+}
+
+
+
+.login{
+    background-color: #F3AD6E;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.sign-up{
+    background-color: #FFA737;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    
+}
+@media(min-width:700px){
+    .nav-burger-menu{
+        opacity: 0;
+        width: 0;
+    }
+}
+
+@media(max-width:700px){
+    .nav-list{
+        opacity: 0;
+    }
+    .sign-login{
+        opacity: 0;
+    }
+}
 
 /*styling footer*/
 

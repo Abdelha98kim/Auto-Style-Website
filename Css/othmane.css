@@ -1,3 +1,10 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&display=swap');
+
+
+*{
+    font-family: "Outfit", sans-serif;
+}
 /*Styling navbar*/
 .navbar{
     background-color: #FBE6CB;
@@ -23,6 +30,36 @@
 
 .nav-logo img{
     padding: 18px 0 18px 45px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    width: 70%;
+    justify-content: center;
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    margin: 0 22px;
+}
+
+nav li{
+    display: inline;
+}
+@media(min-width:700px){
+    .nav-burger-menu{
+        opacity: 0;
+        width: 0;
+    }
+}
+
+@media(max-width:700px){
+    .nav-list{
+        opacity: 0;
+    }
 }
 
 /*styling footer*/
