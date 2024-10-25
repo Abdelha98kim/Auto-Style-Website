@@ -49,10 +49,22 @@ nav ul li a{
 nav li{
     display: inline;
 }
+.panier-and-user img{
+    width: 30px;
+}
+
+.panier-and-user{
+    display: flex;
+    justify-content: flex-end;
+}
 @media(min-width:700px){
     .nav-burger-menu{
         opacity: 0;
-        width: 0;
+        position: absolute;
+    }
+    .panier-and-user{
+        opacity: 0;
+        position: absolute;
     }
 }
 
